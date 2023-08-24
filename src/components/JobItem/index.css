@@ -1,0 +1,107 @@
+.job-item-container {
+  list-style: none;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #ffffff;
+}
+.img-title-container {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.title-rating-container {
+  margin-top: 0;
+  padding: 0;
+}
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.title-heading {
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.star-rating-container {
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+}
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.rating-text {
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.location-package-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-job-type-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-icon-container {
+  display: flex;
+  font-size: 10px;
+  margin-right: 10px;
+}
+.employment-type-container {
+  display: flex;
+  font-size: 10px;
+}
+.description-heading {
+  font-size: 20px;
+}
+.description-para {
+  font-size: 15px;
+}
+.location-icon,
+.job-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.location {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2px;
+}
+.job-type {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5px;
+}
+.package {
+  margin-top: 0;
+}
+.link-item {
+  text-decoration: none;
+  width: 100%;
+}
+.job-item-container {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.second-part-container {
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .job-item-container {
+    width: 100%;
+  }
+  .title-heading {
+    font-size: 20px;
+    padding-top: 25px;
+  }
+}
